@@ -31,17 +31,16 @@ public class MainProgram {
 					System.out.println("Ngày sản xuất: ");
 					d = sc1.nextLine();
 					System.out.println("Đơn giá: ");
-					e= sc1.nextDouble();
+					e= sc.nextDouble();
 					System.out.println("Số lượng: ");
-					f = sc1.nextDouble();
+					f = sc.nextDouble();
 					System.out.println("tên hàng : " + c + "\n" + "ngày sản xuất : " + d +"\n"+ "đơn giá : " + e + "\n"+"số lượng : " + f +"\n"+ "Tổng tiền = " + ( e * f ) );
 				}
-				else
-					if(n==2 )
+				else if(n==2 )
 					System.out.println("hẹn gặp lại ^^");
-				else
-					if(n!=1 || n!=2)
+				else if(n!=1 || n!=2)
 						System.out.println("chọn 1 hoặc 2");
+
 
 			}while (n!=2);
 
